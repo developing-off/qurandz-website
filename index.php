@@ -3,17 +3,16 @@
 require_once('function/HijriDate/hijri.class.php');
 
 $titleMappings = [
-    "home" => "Accueil",
+    "home" => "الصفحة الرئيسية",
 ];
 $titleMappings1 = [
     "login" => "connexion",
 ];
 $base_url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/';
 if (empty($_GET)) {
-    $title = "Accueil";
+    $title = "الصفحة الرئيسية";
     include 'pages/home.php';
 } else {
-
     $url = explode("/", filter_var($_GET['url'], FILTER_SANITIZE_URL));
     if (isset($url[1]) && !is_numeric($url[1])) {
         $title = $titleMappings1[$url[1]] ?? "Default Title";
@@ -22,12 +21,11 @@ if (empty($_GET)) {
     } else {
         $title = "Default Title";
     }
-
-    #var_dump($base_url,$url = explode("/", filter_var($_GET['url'],FILTER_SANITIZE_URL)));
     switch ($url[0]) {
         case "home":
             include 'pages/home.php';
-            break;
+        break;
+
         case "api":
         if(empty($url[1])){
             echo "url not found";
@@ -40,6 +38,6 @@ if (empty($_GET)) {
        
         default:
             include 'pages/errors/404.php';
-            break;
+        break;
     }
 }

@@ -30,7 +30,7 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-10">
               <div class="row align-items-center">
-                <div class="col-md-5 col-sm-12 mb-30 text-center text-md-start"><img src="assets/imgs/error/404/404.png" alt="iori"></div>
+                <div class="col-md-5 col-sm-12 mb-30 text-center text-md-start"><img src="<?=$base_url?>assets/imgs/error/404/404.png" alt="qurandz error page"></div>
                 <div class="col-md-7 col-sm-12 text-center text-md-start">
                   <h1 class="color-brand-1 font-84 mb-10">404</h1>
                   <h3 class="color-brand-1 mb-25">عفوًا ، لا يوجد شيء لتراه هنا</h3>
