@@ -50,11 +50,11 @@ require('function/adkar/get_adkar.php');
                 </div>
                 <div class="box-list-blogs">
                     <div class="row mt-55">
-                        <div class="col-lg-12 col-md-6 mb-30 item-article sabah" style="">
+                        <div class="col-lg-12 col-md-6 mb-30 item-article sabah">
                             <h4 class="tem-article sabah text-primary">أذكار الصباح</h4>
                         </div>
                         <?php foreach ($azkar_sabah as $itemam): ?>
-                            <div class="col-lg-12 col-md-6 mb-30 item-article sabah" style="">
+                            <div class="col-lg-12 col-md-6 mb-30 item-article sabah" >
                                 <div class="card-blog-grid card-blog-grid-3 hover-up">
                                     <div class="card-info">
                                         <div><span class="fs-5 fw-bold text-dark">
@@ -85,11 +85,11 @@ require('function/adkar/get_adkar.php');
                                 <div class="border-bottom"></div>
                             </div>
                         <?php endforeach; ?>
-                        <div class="col-lg-12 col-md-6 mb-30 item-article masaa" style="">
+                        <div class="col-lg-12 col-md-6 mb-30 item-article masaa" >
                             <h4 class="tem-article masaa text-primary">اذكار المساء</h4>
                         </div>
                         <?php foreach ($azkar_masaa as $itempm): ?>
-                            <div class="col-lg-12 col-md-6 mb-30 item-article masaa" style="">
+                            <div class="col-lg-12 col-md-6 mb-30 item-article masaa" >
                                 <div class="card-blog-grid card-blog-grid-3 hover-up">
                                     <div class="card-info">
                                         <div><span class="fs-5 fw-bold text-dark">
@@ -120,11 +120,11 @@ require('function/adkar/get_adkar.php');
                                 <div class="border-bottom"></div>
                             </div>
                         <?php endforeach; ?>
-                        <div class="col-lg-12 col-md-6 mb-30 item-article other" style="">
+                        <div class="col-lg-12 col-md-6 mb-30 item-article other" >
                             <h4 class="tem-article other text-primary"> اخرون</h4>
                         </div>
                         <?php foreach ($other as $itemo): ?>
-                            <div class="col-lg-12 col-md-6 mb-30 item-article other" style="">
+                            <div class="col-lg-12 col-md-6 mb-30 item-article other" >
                                 <div class="card-blog-grid card-blog-grid-3 hover-up">
                                     <div class="card-info">
                                         <div><span class="fs-5 fw-bold text-dark">
