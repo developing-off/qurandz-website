@@ -70,7 +70,7 @@ if (empty($_GET)) {
             break;
 
         default:
-            include 'pages/errors/404.php';
+        include 'pages/home.php';
             break;
     }
 }
